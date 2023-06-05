@@ -7,7 +7,7 @@ const ImageList = ({ images }) => {
     return <ImageShow key={image.id} image={image} />;
   });
 
-  return <div className="img-list">{renderedImages}</div>;
+  return <div className="image-list">{renderedImages}</div>;
 };
 
 export default ImageList;
